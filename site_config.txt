@@ -1,20 +1,19 @@
 ######Caution:Do Not Change The Order Of Inputs.
 ######Comments:You are supposed to modify only the value and not key. For Example, to change the Site Collection Name, change the value after colon(:)  
 ######Comments:Site Collection Name can take only one of these values->Analytics,Students,Teams,HR&Finance and University.
-######Comments:Base URL cannot be empty.
-######Comments:Site Creation Location.It says where the site should be created.It can take one of these values dev,prod or both
+######Comments:Base URL cannot be empty. It can be take one of these values dev,prod or both
 ######Comments:Username cannot be empty.
 ######Comments:Site URL cannot be empty.
 ######Comments:Site Name cannot be empty.
 ######Comments:Site Description cannot be empty.
 ######Comments:Power Users AD GROUP(Not Supported Via Script).
 ######Comments:Report Viewers AD GROUP(Not Supported Via Script).
-Site Collection Name: Analytics 	
-Site Creation Location: dev
-Base URL: https://analytics-dev.asu.edu/Sandbox
-Username:asurite\rsistla
-Site URL: Raginitest1
-Site Name: Dean Admission Services and Financial Aid
-Site Description:This site is specifically for Dean of Admission Services, containing reports on admissions and financial aid
-Power Users : asurite\\rsistla
-Report Viewers : asurite\\rsistla
+Site Collection Name: Teams 
+Site Creation Location: prod
+Base URL: https://analytics.asu.edu/teams
+Username: asurite\rsistla
+Site URL: chs
+Site Name: College of Health Solutions
+Site Description: Various metrics for the College of Health Solutions
+Power Users : asurite\\bi.wg.chs.pwr
+Report Viewers : asurite\\bi.wg.chs.vwr
