@@ -1,7 +1,8 @@
 ######Caution:Do Not Change The Order Of Inputs.
 ######Comments:You are supposed to modify only the value and not key. For Example, to change the Site Collection Name, change the value after colon(:)  
-######Comments:Site Collection Name can take only one of these values->Analytics,Students,Teams,HR&Finance and University.
-######Comments:Base URL cannot be empty. It can be take one of these values dev,prod or both
+######Comments:Site Collection Name can take only one of these values->Analytics,Students,Teams,Human Resources and University.
+######Comments:Base URL cannot be empty.
+######Comments:Site Creation Location.It says where the site should be created.It can take one of these values dev,prod or both
 ######Comments:Username cannot be empty.
 ######Comments:Site URL cannot be empty.
 ######Comments:Site Name cannot be empty.
