@@ -13,8 +13,8 @@ Site Collection Name: Teams
 Site Creation Location: both
 Base URL: https://analytics.asu.edu/teams
 Username: asurite\rsistla
-Site URL: blackboard
-Site Name: Blackboard
-Site Description: The Blackboard site contains reports and datasets revolving around the Blackboard LMS Application. Contents include course- and student-level activity data aggregated in a model with student and course contextual data.
-Power Users : asurite\\bi.wg.blackboard.PWR
-Report Viewers : asurite\\bi.wg.blackboard.VWR
+Site URL: marketing_hub
+Site Name: Enterprise Marketing Hub Insights Dashboards
+Site Description: The Enterprise Marketing Hub Insights Dashboards site is a confidential site designed to provide university executives with instant access to marketing data that guides university marketing decisions.
+Power Users : asurite\\BI.WG.MktHub.PWR
+Report Viewers : asurite\\BI.WG.MktHub.VWR
