@@ -33,25 +33,13 @@ with open("site_config.txt") as myfile:
        
         myvars[name.strip()] = var
  
-base_url = myvars['Base URL'].strip(' \t\n\r')
-base_url = urlparse(base_url)
-
-if (myvars['Site Creation Location'].strip(' \t\n\r')=='dev'):
-    url = 'analytics-dev.asu.edu'
-
-elif (myvars['Site Creation Location'].strip(' \t\n\r')=='prod'):
-    url = 'analytics.asu.edu'
-
-base_url = base_url.scheme + "://" + url + base_url.path + '/'
-print("The Base URL to create the site-->" + base_url)
-site_collection_name = myvars['Site Collection Name'].strip(' \t\n\r')
-#site_url is the location where site gets to be created.
-site_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/'
-#root_url is the url of the created site.
-root_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/_api/web/'
-site_name = myvars['Site Name'].strip(' \t\n\r')
 
 username = myvars['Username'].strip(' \t\n\r')
+site_name = myvars['Site Name'].strip(' \t\n\r')
+site_collection_name = myvars['Site Collection Name'].strip(' \t\n\r')
+
+
+   
 
     
 def GetNTLMAuthToken():
@@ -331,7 +319,7 @@ def updateListVersion():
                       auth=HttpNtlmAuth(username,
                       password), headers=headers_merge, verify=False)
     logging.debug("List Version settings of pages %s" ,str(r.status_code))
-def ChangeDraftVersionVisibilityOfPages():
+def ChangeDraftVersionVisibilityOfPages(root_url):
     payload = {
         '__metadata': {'type': 'SP.List'},
         'EnableMinorVersions' : 'false',
@@ -349,7 +337,7 @@ def ChangeDraftVersionVisibilityOfPages():
                       password), headers=headers_merge, verify=False)
     logger.debug("Change Draft Version visibility of Pages %s" ,str(r.status_code))
 
-def AddNavigationQuickLaunchAttribute():
+def AddNavigationQuickLaunchAttribute(base_url, root_url):
     server_relative_url = base_url+ '/_api/web/webinfos'
    
     r1 = requests.get(server_relative_url, auth=HttpNtlmAuth(username, password), headers = headers, verify=True)
@@ -383,7 +371,7 @@ def AddNavigationQuickLaunchAttribute():
     logger.debug("Navigation Inheritance of Content Repository %s" ,str(r.status_code))
                                         
 #step 9
-def CreateDashBoardsLibrary():
+def CreateDashBoardsLibrary(root_url):
     post_url = root_url + 'lists'
     payload =  {'__metadata': { 'type': 'SP.List' },
                 'TemplateFeatureId' : 'F979E4DC-1852-4F26-AB92-D1B2A190AFC9',
@@ -405,7 +393,7 @@ def CreateDashBoardsLibrary():
     print(r.text)
     print(r.content)
 #Step 9
-def ModifyDashBoardsLibraryContentType():
+def ModifyDashBoardsLibraryContentType(root_url):
     post_url_id = root_url + "AvailableContentTypes?$select=Name, Id, StringId&$filter=Name eq 'Report Builder Report'"
     r1 = requests.get(post_url_id, auth=HttpNtlmAuth(username, password), headers = headers, verify=True)
  
@@ -431,7 +419,7 @@ def ModifyDashBoardsLibraryContentType():
     logger.debug("Content Repository Content Type to PowerPivot Gallery Document %s" , str(r4.status_code))
 
 #Step 9
-def ModifyDashBoardsLibraryView():
+def ModifyDashBoardsLibraryView(root_url):
       
     post_url_title = root_url + 'lists/GetByTitle(\'Content Repository\')/Views/getByTitle(\'All Items\')/viewfields/removeviewfield(\'Title\')'
     post_url_keywords = root_url + 'lists/GetByTitle(\'Content Repository\')/Views/getByTitle(\'All Items\')/viewfields/removeviewfield(\'Keywords\')'
@@ -456,7 +444,7 @@ def ModifyDashBoardsLibraryView():
 #step 10
 
 
-def DeleteItemsFromPageList():
+def DeleteItemsFromPageList(base_url, root_url):
     #TODO: change SANDBOX, RAGINI DEMO TEST to variables
     server_relative_url = base_url + '/_api/web/webinfos'
    
@@ -485,7 +473,7 @@ def DeleteItemsFromPageList():
     logger.debug("Delete ppsample from Page %d", r4.status_code)
     #print(r3.status_code)
 
-def CreateHomePage():
+def CreateHomePage(base_url,root_url):
     server_relative_url = base_url+ '/_api/web/webinfos'
    
     r1 = requests.get(server_relative_url, auth=HttpNtlmAuth(username, password), headers = headers, verify=True)
@@ -588,7 +576,7 @@ def CreateHomePage():
     r2 = requests.post(post_url_defaultfile, auth=HttpNtlmAuth(username, password), headers = headers_delete, verify=True)
     logger.debug("Delete Default Page from Pages %d", r2.status_code)
    
-def ChangeTheContentTypeToArticlePage():
+def ChangeTheContentTypeToArticlePage(base_url,root_url):
     server_relative_url = base_url + '/_api/web/webinfos'
    
     r1 = requests.get(server_relative_url, auth=HttpNtlmAuth(username, password), headers = headers, verify=True)
@@ -634,7 +622,7 @@ def ChangeTheContentTypeToArticlePage():
 
     print(r2.status_code)
 
-def AllowAccessRequestDisable():
+def AllowAccessRequestDisable(root_url):
     post_url = root_url
     payload =  {'__metadata': { 'type': 'SP.Web' },
                'RequestAccessEmail':''
@@ -652,63 +640,87 @@ def AllowAccessRequestDisable():
     logger.debug("Access Requests Disable %s",  str(r.status_code))
     print(r.text)
 
-def StartScript():
-    GetNTLMAuthToken()    
-    CreateSubSite()    
-    CreateGroup()
+def StartScript(base_url, root_url,site_url):
+    GetNTLMAuthToken(base_url)    
+    CreateSubSite(base_url, site_url)    
+    CreateGroup(root_url)
     #GetUsersOfAGroup()
-    AssignPermissionsToTheGroup()    
+    AssignPermissionsToTheGroup(root_url)    
     #AddUsersToTheGroup()    
-    ManageFeatures()
+    ManageFeatures(root_url)
     try:
-        DeleteDashboards()
+        DeleteDashboards(root_url)
     except:
         pass
     try:
-        DeleteItemInDocumentsLibrary()
+        DeleteItemInDocumentsLibrary(root_url)
     except:
         pass    
-    ModifyingTheViewOfDataConnection()    
-    ModifyContentTypeOfTheList()
-    updateListVersion()        
-    CreateDashBoardsLibrary()
-    AddNavigationQuickLaunchAttribute()
-    ModifyDashBoardsLibraryContentType()
-    ModifyDashBoardsLibraryView()
-    DeleteItemsFromPageList()    
-    ChangeDraftVersionVisibilityOfPages()    
-    CreateHomePage()    
-    ChangeTheContentTypeToArticlePage()   
-    AllowAccessRequestDisable()
+    ModifyingTheViewOfDataConnection(root_url)    
+    ModifyContentTypeOfTheList(root_url)
+    updateListVersion(root_url)        
+    CreateDashBoardsLibrary(root_url)
+    AddNavigationQuickLaunchAttribute(base_url, root_url)
+    ModifyDashBoardsLibraryContentType(root_url)
+    ModifyDashBoardsLibraryView(root_url)
+    DeleteItemsFromPageList(base_url, root_url)    
+    ChangeDraftVersionVisibilityOfPages(root_url)    
+    CreateHomePage(base_url, root_url)    
+    ChangeTheContentTypeToArticlePage(base_url, root_url)   
+    AllowAccessRequestDisable(root_url)
   
 if __name__ == '__main__':
     import sys
     if(myvars['Site Creation Location'].strip(' \t\n\r')=='both'):
         print("The Site Creation Location is Both---> Creating Site in Prod Now")
-        url = 'analytics.asu.edu'
+        url = "analytics.asu.edu"
+       
         base_url = myvars['Base URL'].strip(' \t\n\r')
+        base_url = urlparse(base_url)
         base_url = base_url.scheme + "://" + url + base_url.path
+        print(base_url)
         site_collection_name = myvars['Site Collection Name'].strip(' \t\n\r')
         #site_url is the location where site gets to be created.
         site_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/'
         #root_url is the url of the created site.
         root_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/_api/web/'
-        StartScript()
-   
-    elif(myvars['Site Creation Location'].strip(' \t\n\r')=='both'):
+        
+        StartScript(base_url, root_url, site_url)
+        
         print("The Site Creation Location is Both---> Creating Site in Dev Now")
-        url = 'analytics-dev.asu.edu'
+        url = "analytics-dev.asu.edu"
         base_url = myvars['Base URL'].strip(' \t\n\r')
+        base_url = urlparse(base_url)
         base_url = base_url.scheme + "://" + url + base_url.path
-        site_collection_name = myvars['Site Collection Name'].strip(' \t\n\r')
         #site_url is the location where site gets to be created.
         site_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/'
         #root_url is the url of the created site.
         root_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/_api/web/'
-        StartScript()
-    else:
+        StartScript(base_url, root_url,site_url)
+        
+    elif (myvars['Site Creation Location'].strip(' \t\n\r')=='dev'):
+        base_url = myvars['Base URL'].strip(' \t\n\r')
+        base_url = urlparse(base_url)
+        url = 'analytics-dev.asu.edu'
+        base_url = base_url.scheme + "://" + url + base_url.path + '/'
+        #site_url is the location where site gets to be created.
+        site_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/'
+        #root_url is the url of the created site.
+        root_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/_api/web/'
+        StartScript(base_url, root_url, site_url)
+
+
+    elif (myvars['Site Creation Location'].strip(' \t\n\r')=='prod'):
+        base_url = myvars['Base URL'].strip(' \t\n\r')
+        base_url = urlparse(base_url)
+        url = 'analytics.asu.edu'
+        base_url = base_url.scheme + "://" + url + base_url.path + '/'
+        #site_url is the location where site gets to be created.
+        site_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/'
+        #root_url is the url of the created site.
+        root_url = base_url + myvars['Site URL'].strip(' \t\n\r') + '/_api/web/'
         print("The Site Creation Location is Not Both ---> Creating Site in Appropriate Location")
-        StartScript()
+        StartScript(base_url, root_url, site_url)
         
 
 			

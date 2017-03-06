@@ -10,11 +10,11 @@
 ######Comments:Power Users AD GROUP(Not Supported Via Script).
 ######Comments:Report Viewers AD GROUP(Not Supported Via Script).
 Site Collection Name: Teams 
-Site Creation Location: prod
+Site Creation Location: both
 Base URL: https://analytics.asu.edu/teams
 Username: asurite\rsistla
-Site URL: chs
-Site Name: College of Health Solutions
-Site Description: Various metrics for the College of Health Solutions
-Power Users : asurite\\bi.wg.chs.pwr
-Report Viewers : asurite\\bi.wg.chs.vwr
+Site URL: blackboard
+Site Name: Blackboard
+Site Description: The Blackboard site contains reports and datasets revolving around the Blackboard LMS Application. Contents include course- and student-level activity data aggregated in a model with student and course contextual data.
+Power Users : asurite\\bi.wg.blackboard.PWR
+Report Viewers : asurite\\bi.wg.blackboard.VWR
