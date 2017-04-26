@@ -9,12 +9,12 @@
 ######Comments:Site Description cannot be empty.
 ######Comments:Power Users AD GROUP(Not Supported Via Script).
 ######Comments:Report Viewers AD GROUP(Not Supported Via Script).
-Site Collection Name: Teams 
-Site Creation Location: both
-Base URL: https://analytics.asu.edu/teams
-Username: asurite\rsistla
-Site URL: marketing_hub
-Site Name: Enterprise Marketing Hub Insights Dashboards
-Site Description: The Enterprise Marketing Hub Insights Dashboards site is a confidential site designed to provide university executives with instant access to marketing data that guides university marketing decisions.
-Power Users : asurite\\BI.WG.MktHub.PWR
-Report Viewers : asurite\\BI.WG.MktHub.VWR
+Site Collection Name: Analytics
+Site Creation Location: dev
+Base URL: https://analytics.asu.edu/Sandbox
+Username: asurite\\rsistla
+Site URL: clasenrollment2
+Site Name:  CLAS Enroll2
+Site Description: This site contains information related to students, courses, degree plans, and other analyses to support the College of Liberal Arts and Sciences (CLAS)
+Power Users : asurite\\BI.WG.CLASEnroll.PWR
+Report Viewers : asurite\\BI.WG.CLASEnroll.VWR

@@ -1437,3 +1437,448 @@
 2017-03-06 16:37:36,457 DEBUG CreateHomePage(594) Delete Default Page from Pages 200
 2017-03-06 16:37:41,922 DEBUG ChangeTheContentTypeToArticlePage(624) Content type of Page to Article page 204
 2017-03-06 16:37:44,629 DEBUG AllowAccessRequestDisable(656) Access Requests Disable 204
+2017-03-13 13:38:25,687 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x6EFDB4BB0D6946BC6E6A22B6D2A7F82ECBBCA1C42E1B3BD2460A7CD27969B51C65A588C1801FC4F726B9F3CA69F98CE277BD841834C3EC25224F8BEF46BB3074,13 Mar 2017 20:38:26 -0000
+2017-03-13 13:38:46,687 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 13:39:17,557 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-13 13:39:19,659 DEBUG CreateGroup(108) Creation of Groups Power Users Status Code 201
+2017-03-13 13:39:19,660 DEBUG CreateGroup(109) Creation of Groups Report Viewers Status Code 201
+2017-03-13 13:39:28,563 DEBUG AssignPermissionsToTheGroup(162) Assign permissions to power users status code 200
+2017-03-13 13:39:28,564 DEBUG AssignPermissionsToTheGroup(163) Assign permissions to report viewers status code 200
+2017-03-13 13:39:29,440 DEBUG ManageFeatures(209) Report File Sync Feature Status Code 200
+2017-03-13 13:39:33,218 DEBUG DeleteDashboards(225) Delete Dashboards Library Status Code 200
+2017-03-13 13:39:37,285 DEBUG DeleteItemInDocumentsLibrary(241) Delete Excel Services Sample file from Documents Library 200
+2017-03-13 13:39:46,971 DEBUG ModifyingTheViewOfDataConnection(275) Remove Title from DataConnection 200
+2017-03-13 13:39:46,971 DEBUG ModifyingTheViewOfDataConnection(276) Remove Document Modified BY From Data Connection 200
+2017-03-13 13:39:46,972 DEBUG ModifyingTheViewOfDataConnection(277) Remove keywords BY From Data Connection 200
+2017-03-13 13:39:57,039 DEBUG ModifyContentTypeOfTheList(299) Content Type Of Data COnnections 200
+2017-03-13 13:39:59,852 DEBUG updateListVersion(319) List Version settings of Data COnnections 204
+2017-03-13 13:40:02,660 DEBUG updateListVersion(325) List Version settings of Performance Content 204
+2017-03-13 13:40:08,766 DEBUG CreateDashBoardsLibrary(403) Create Content Repository 201
+2017-03-13 13:40:12,567 DEBUG AddNavigationQuickLaunchAttribute(377) Navigation Inheritance of pages 201
+2017-03-13 13:40:15,450 DEBUG AddNavigationQuickLaunchAttribute(382) Navigation Inheritance of Content Repository 201
+2017-03-13 13:40:19,432 DEBUG ModifyDashBoardsLibraryContentType(415) Content Repository Content Type to Report Builder Report 200
+2017-03-13 13:40:25,428 DEBUG ModifyDashBoardsLibraryContentType(425) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-13 13:40:31,410 DEBUG ModifyDashBoardsLibraryContentType(434) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-13 13:40:45,754 DEBUG ModifyDashBoardsLibraryView(460) Remove Title from COntent Repository 200
+2017-03-13 13:40:45,754 DEBUG ModifyDashBoardsLibraryView(461) Remove contact from DataConnection 200
+2017-03-13 13:40:45,756 DEBUG ModifyDashBoardsLibraryView(462) Remove pagelayout from DataConnection 200
+2017-03-13 13:40:52,617 DEBUG DeleteItemsFromPageList(490) Delete excelservicessample from page 200
+2017-03-13 13:40:52,618 DEBUG DeleteItemsFromPageList(492) Delete ppsample from Page 200
+2017-03-13 13:40:55,387 DEBUG ChangeDraftVersionVisibilityOfPages(349) Change Draft Version visibility of Pages 204
+2017-03-13 13:41:01,356 DEBUG CreateHomePage(512) Creation of home page 200
+2017-03-13 13:41:05,355 DEBUG CreateHomePage(541) Updating Page Layout to ASUHOMEDefault, Title 400
+2017-03-13 13:41:08,132 DEBUG CreateHomePage(557) Making Home Page a default page at Root Level 204
+2017-03-13 13:41:10,982 DEBUG CreateHomePage(573) Making Home Page default page at Pages Level 204
+2017-03-13 13:41:14,793 DEBUG CreateHomePage(594) Delete Default Page from Pages 200
+2017-03-13 13:41:19,528 DEBUG ChangeTheContentTypeToArticlePage(624) Content type of Page to Article page 204
+2017-03-13 13:41:22,321 DEBUG AllowAccessRequestDisable(656) Access Requests Disable 204
+2017-03-13 13:49:29,025 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xBB62D07C093502945BAD1E058342236BCF049F9DD6BE0AA1F15F11DF1ABFDF659ECC6F4376AE104DA738F98B37FDA937B74280E13AC5C62FFD5A639175D02CBC,13 Mar 2017 20:49:29 -0000
+2017-03-13 13:49:42,121 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 13:50:13,158 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-13 13:50:15,257 DEBUG CreateGroup(108) Creation of Groups Power Users Status Code 201
+2017-03-13 13:50:15,258 DEBUG CreateGroup(109) Creation of Groups Report Viewers Status Code 201
+2017-03-13 13:50:24,412 DEBUG AssignPermissionsToTheGroup(162) Assign permissions to power users status code 200
+2017-03-13 13:50:24,413 DEBUG AssignPermissionsToTheGroup(163) Assign permissions to report viewers status code 200
+2017-03-13 13:50:25,330 DEBUG ManageFeatures(209) Report File Sync Feature Status Code 200
+2017-03-13 13:50:29,167 DEBUG DeleteDashboards(225) Delete Dashboards Library Status Code 200
+2017-03-13 13:50:33,057 DEBUG DeleteItemInDocumentsLibrary(241) Delete Excel Services Sample file from Documents Library 200
+2017-03-13 13:50:43,096 DEBUG ModifyingTheViewOfDataConnection(275) Remove Title from DataConnection 200
+2017-03-13 13:50:43,097 DEBUG ModifyingTheViewOfDataConnection(276) Remove Document Modified BY From Data Connection 200
+2017-03-13 13:50:43,097 DEBUG ModifyingTheViewOfDataConnection(277) Remove keywords BY From Data Connection 200
+2017-03-13 13:50:53,129 DEBUG ModifyContentTypeOfTheList(299) Content Type Of Data COnnections 200
+2017-03-13 13:50:55,992 DEBUG updateListVersion(319) List Version settings of Data COnnections 204
+2017-03-13 13:50:58,834 DEBUG updateListVersion(325) List Version settings of Performance Content 204
+2017-03-13 13:51:05,071 DEBUG CreateDashBoardsLibrary(403) Create Content Repository 201
+2017-03-13 13:51:08,879 DEBUG AddNavigationQuickLaunchAttribute(377) Navigation Inheritance of pages 201
+2017-03-13 13:51:11,768 DEBUG AddNavigationQuickLaunchAttribute(382) Navigation Inheritance of Content Repository 201
+2017-03-13 13:51:15,813 DEBUG ModifyDashBoardsLibraryContentType(415) Content Repository Content Type to Report Builder Report 200
+2017-03-13 13:51:21,910 DEBUG ModifyDashBoardsLibraryContentType(425) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-13 13:51:28,059 DEBUG ModifyDashBoardsLibraryContentType(434) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-13 13:51:41,922 DEBUG ModifyDashBoardsLibraryView(460) Remove Title from COntent Repository 200
+2017-03-13 13:51:41,922 DEBUG ModifyDashBoardsLibraryView(461) Remove contact from DataConnection 200
+2017-03-13 13:51:41,928 DEBUG ModifyDashBoardsLibraryView(462) Remove pagelayout from DataConnection 200
+2017-03-13 13:51:48,859 DEBUG DeleteItemsFromPageList(490) Delete excelservicessample from page 200
+2017-03-13 13:51:48,860 DEBUG DeleteItemsFromPageList(492) Delete ppsample from Page 200
+2017-03-13 13:51:51,663 DEBUG ChangeDraftVersionVisibilityOfPages(349) Change Draft Version visibility of Pages 204
+2017-03-13 13:51:56,912 DEBUG CreateHomePage(512) Creation of home page 400
+2017-03-13 13:56:26,852 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x27E13EC8895E8EA8936ED92EF409DB63B625F3DBB0B3AE6FE98B9D19B2B62AE0F1699E184B792A3DA4DDBB07DF587CC3C50BBEC184972A594A15A635BB1C2696,13 Mar 2017 20:56:27 -0000
+2017-03-13 13:56:50,553 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-13 13:56:52,496 DEBUG CreateGroup(108) Creation of Groups Power Users Status Code 201
+2017-03-13 13:56:52,496 DEBUG CreateGroup(109) Creation of Groups Report Viewers Status Code 201
+2017-03-13 13:57:00,998 DEBUG AssignPermissionsToTheGroup(162) Assign permissions to power users status code 200
+2017-03-13 13:57:00,999 DEBUG AssignPermissionsToTheGroup(163) Assign permissions to report viewers status code 200
+2017-03-13 13:57:01,839 DEBUG ManageFeatures(209) Report File Sync Feature Status Code 200
+2017-03-13 13:57:06,027 DEBUG DeleteDashboards(225) Delete Dashboards Library Status Code 200
+2017-03-13 13:57:09,871 DEBUG DeleteItemInDocumentsLibrary(241) Delete Excel Services Sample file from Documents Library 200
+2017-03-13 13:57:19,751 DEBUG ModifyingTheViewOfDataConnection(275) Remove Title from DataConnection 200
+2017-03-13 13:57:19,752 DEBUG ModifyingTheViewOfDataConnection(276) Remove Document Modified BY From Data Connection 200
+2017-03-13 13:57:19,752 DEBUG ModifyingTheViewOfDataConnection(277) Remove keywords BY From Data Connection 200
+2017-03-13 13:57:29,706 DEBUG ModifyContentTypeOfTheList(299) Content Type Of Data COnnections 200
+2017-03-13 13:57:32,521 DEBUG updateListVersion(319) List Version settings of Data COnnections 204
+2017-03-13 13:57:35,297 DEBUG updateListVersion(325) List Version settings of Performance Content 204
+2017-03-13 13:57:41,343 DEBUG CreateDashBoardsLibrary(403) Create Content Repository 201
+2017-03-13 13:57:45,193 DEBUG AddNavigationQuickLaunchAttribute(377) Navigation Inheritance of pages 201
+2017-03-13 13:57:48,082 DEBUG AddNavigationQuickLaunchAttribute(382) Navigation Inheritance of Content Repository 201
+2017-03-13 13:57:52,227 DEBUG ModifyDashBoardsLibraryContentType(415) Content Repository Content Type to Report Builder Report 200
+2017-03-13 13:57:58,433 DEBUG ModifyDashBoardsLibraryContentType(425) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-13 13:58:04,482 DEBUG ModifyDashBoardsLibraryContentType(434) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-13 13:58:18,228 DEBUG ModifyDashBoardsLibraryView(460) Remove Title from COntent Repository 200
+2017-03-13 13:58:18,229 DEBUG ModifyDashBoardsLibraryView(461) Remove contact from DataConnection 200
+2017-03-13 13:58:18,231 DEBUG ModifyDashBoardsLibraryView(462) Remove pagelayout from DataConnection 200
+2017-03-13 13:58:26,064 DEBUG DeleteItemsFromPageList(490) Delete excelservicessample from page 200
+2017-03-13 13:58:26,064 DEBUG DeleteItemsFromPageList(492) Delete ppsample from Page 200
+2017-03-13 13:58:28,836 DEBUG ChangeDraftVersionVisibilityOfPages(349) Change Draft Version visibility of Pages 204
+2017-03-13 13:58:33,980 DEBUG CreateHomePage(512) Creation of home page 400
+2017-03-13 13:58:39,795 DEBUG ChangeTheContentTypeToArticlePage(624) Content type of Page to Article page 500
+2017-03-13 13:58:42,556 DEBUG AllowAccessRequestDisable(656) Access Requests Disable 204
+2017-03-13 13:59:59,550 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xEDB154CF396A8854852A543E862449DC569FBAD82522E3CA90615D72A55D8A3FA4384ED6FDFC22AD967B341ACBB3E9DA69D5DCA28A7D0645020A21140DC6F9DA,13 Mar 2017 21:00:00 -0000
+2017-03-13 14:00:11,056 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:00:39,431 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-13 14:00:41,316 DEBUG CreateGroup(108) Creation of Groups Power Users Status Code 201
+2017-03-13 14:00:41,317 DEBUG CreateGroup(109) Creation of Groups Report Viewers Status Code 201
+2017-03-13 14:00:49,984 DEBUG AssignPermissionsToTheGroup(162) Assign permissions to power users status code 200
+2017-03-13 14:00:49,984 DEBUG AssignPermissionsToTheGroup(163) Assign permissions to report viewers status code 200
+2017-03-13 14:00:50,850 DEBUG ManageFeatures(209) Report File Sync Feature Status Code 200
+2017-03-13 14:00:54,600 DEBUG DeleteDashboards(225) Delete Dashboards Library Status Code 200
+2017-03-13 14:00:58,458 DEBUG DeleteItemInDocumentsLibrary(241) Delete Excel Services Sample file from Documents Library 200
+2017-03-13 14:01:08,117 DEBUG ModifyingTheViewOfDataConnection(275) Remove Title from DataConnection 200
+2017-03-13 14:01:08,117 DEBUG ModifyingTheViewOfDataConnection(276) Remove Document Modified BY From Data Connection 200
+2017-03-13 14:01:08,118 DEBUG ModifyingTheViewOfDataConnection(277) Remove keywords BY From Data Connection 200
+2017-03-13 14:01:18,539 DEBUG ModifyContentTypeOfTheList(299) Content Type Of Data COnnections 200
+2017-03-13 14:01:21,353 DEBUG updateListVersion(319) List Version settings of Data COnnections 204
+2017-03-13 14:01:24,141 DEBUG updateListVersion(325) List Version settings of Performance Content 204
+2017-03-13 14:01:30,367 DEBUG CreateDashBoardsLibrary(403) Create Content Repository 201
+2017-03-13 14:01:34,207 DEBUG AddNavigationQuickLaunchAttribute(377) Navigation Inheritance of pages 201
+2017-03-13 14:01:37,137 DEBUG AddNavigationQuickLaunchAttribute(382) Navigation Inheritance of Content Repository 201
+2017-03-13 14:01:41,261 DEBUG ModifyDashBoardsLibraryContentType(415) Content Repository Content Type to Report Builder Report 200
+2017-03-13 14:01:47,169 DEBUG ModifyDashBoardsLibraryContentType(425) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-13 14:01:53,079 DEBUG ModifyDashBoardsLibraryContentType(434) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-13 14:02:06,743 DEBUG ModifyDashBoardsLibraryView(460) Remove Title from COntent Repository 200
+2017-03-13 14:02:06,743 DEBUG ModifyDashBoardsLibraryView(461) Remove contact from DataConnection 200
+2017-03-13 14:02:06,744 DEBUG ModifyDashBoardsLibraryView(462) Remove pagelayout from DataConnection 200
+2017-03-13 14:02:13,611 DEBUG DeleteItemsFromPageList(490) Delete excelservicessample from page 200
+2017-03-13 14:02:13,612 DEBUG DeleteItemsFromPageList(492) Delete ppsample from Page 200
+2017-03-13 14:02:16,392 DEBUG ChangeDraftVersionVisibilityOfPages(349) Change Draft Version visibility of Pages 204
+2017-03-13 14:02:22,403 DEBUG CreateHomePage(512) Creation of home page 200
+2017-03-13 14:02:26,486 DEBUG CreateHomePage(541) Updating Page Layout to ASUHOMEDefault, Title 400
+2017-03-13 14:02:29,256 DEBUG CreateHomePage(557) Making Home Page a default page at Root Level 204
+2017-03-13 14:02:32,132 DEBUG CreateHomePage(573) Making Home Page default page at Pages Level 204
+2017-03-13 14:02:35,998 DEBUG CreateHomePage(594) Delete Default Page from Pages 200
+2017-03-13 14:02:40,653 DEBUG ChangeTheContentTypeToArticlePage(624) Content type of Page to Article page 204
+2017-03-13 14:02:43,308 DEBUG AllowAccessRequestDisable(656) Access Requests Disable 204
+2017-03-13 14:43:07,236 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xF02C4D19783308D1F206A065FEA7B289A0A0F6C4CF1B1791200DE8BA97D2E1F4C9EFBC4131A92DC4BB8EBC13EBBD4EFB9D6858F62085E3F841032DCB9431BE50,13 Mar 2017 21:43:07 -0000
+2017-03-13 14:43:39,119 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-13 14:43:40,985 DEBUG CreateGroup(108) Creation of Groups Power Users Status Code 201
+2017-03-13 14:43:40,985 DEBUG CreateGroup(109) Creation of Groups Report Viewers Status Code 201
+2017-03-13 14:49:38,083 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x45E94F921BA664BD15442A8C59CA7D2DE67E3DBFDF06A28D8D7B08F135FE7ED6BE92A9CA37784BA80E7C9B77FF864130AFA9BE671453D99174E2D2EFBE5608B6,13 Mar 2017 21:49:38 -0000
+2017-03-13 14:49:39,583 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:49:46,108 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:49:52,601 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:49:59,172 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:50:05,562 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:50:12,035 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-13 14:51:15,976 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x33CB7C66AE28209A0EC87A96C34BFA432FE9DA744E0F8EF2863CDB4911AEFAC4A54D48588A000D1FFBBFE6C9F99A9520CC3158D90BE0F59083A52CFFAD0ADC2C,13 Mar 2017 21:51:16 -0000
+2017-03-13 14:51:18,653 DEBUG CreateGroup(108) Creation of Groups Power Users Status Code 500
+2017-03-13 14:51:18,653 DEBUG CreateGroup(109) Creation of Groups Report Viewers Status Code 500
+2017-03-13 14:53:32,774 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xBA7FD41778F2F71D9D5B7DFFAB1764EDC7965A102B2ED3CB62B50D423058D13C179A266D29F27B48FBCAAD123CC9EE6710DC9A9103C966ECA5A467056AC7BA52,13 Mar 2017 21:53:33 -0000
+2017-03-13 14:54:46,649 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xBF3AD27816A72CAF874A7A45651A4C762D3F99B68DC8A8F4BCF6AE6CB800F3DFC5AD6ED069AE74BDF0C2BB7E428151E75665AC1C31A8721BAE25537592C9920C,13 Mar 2017 21:54:47 -0000
+2017-03-13 14:54:48,773 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-13 14:54:48,774 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-13 14:57:32,775 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x33132CFE01FFC4E11525022D5E7A4B605CB8F98858A10774C98D5933B5E54E8291506E3D2027C4B35FD511D95F763EF2E2C164E31780A7EAEA88E54F4AA272C6,13 Mar 2017 21:57:33 -0000
+2017-03-13 14:57:34,535 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-13 14:57:34,536 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-13 14:59:02,128 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xC63C7CAA215300F2A11CBC0D1E95FF6F4E37463A202517290D93F324362338CA4DF87661FFEA897551C478A82577D945F2385428E88C8AD8B17895119CB7EE18,13 Mar 2017 21:59:02 -0000
+2017-03-13 14:59:03,899 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-13 14:59:03,900 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-13 15:01:09,792 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x63BC8E0E2207106ECBD9A4AA84970D9BCDA4307BFFE50B1B17C918EF641ADE8D4B4B1097540317DB1AC4E4FB5CA84985CEA0C8538C5D2A85C9A358CCFEA8F900,13 Mar 2017 22:01:10 -0000
+2017-03-13 15:01:11,833 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-13 15:01:11,833 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-13 15:03:12,803 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xF672BDEA888B7359D63914DDFF68158BCA09EAF7BBB7C59791673B39566DC696101A0C06C92A57A3C8BEA2FA9726FD97C3AC4A155D46BB5AE61EECCF5ADF8BCC,13 Mar 2017 22:03:13 -0000
+2017-03-13 15:03:14,540 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-13 15:03:14,541 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-13 15:03:23,586 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-13 15:03:23,587 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-13 15:03:24,398 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-13 15:03:28,347 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-13 15:03:32,417 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-13 15:03:42,255 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-13 15:03:42,255 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-13 15:03:42,255 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-13 15:03:52,753 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-13 15:03:55,546 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-13 15:03:58,354 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-13 15:04:04,506 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-13 15:04:08,862 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-13 15:04:11,748 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-13 15:04:15,535 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-13 15:04:21,602 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-13 15:04:27,532 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-13 15:04:41,382 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-13 15:04:41,383 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-13 15:04:41,388 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-13 15:04:49,057 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-13 15:04:49,059 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-13 15:04:51,886 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-13 15:04:58,316 DEBUG CreateHomePage(515) Creation of home page 200
+2017-03-13 15:05:02,159 DEBUG CreateHomePage(544) Updating Page Layout to ASUHOMEDefault, Title 400
+2017-03-13 15:05:04,939 DEBUG CreateHomePage(560) Making Home Page a default page at Root Level 204
+2017-03-13 15:05:07,817 DEBUG CreateHomePage(576) Making Home Page default page at Pages Level 204
+2017-03-13 15:05:12,359 DEBUG CreateHomePage(597) Delete Default Page from Pages 200
+2017-03-13 15:05:18,050 DEBUG ChangeTheContentTypeToArticlePage(627) Content type of Page to Article page 204
+2017-03-13 15:05:20,822 DEBUG AllowAccessRequestDisable(659) Access Requests Disable 204
+2017-03-15 09:56:45,415 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xFD480C2D4BC967052A15C101E31E92542240874369762E0961F07A7E2E07360BF9DF6891D13F03F0C5751580D9E7BA9AB409626426AE382F9DCB0620991973E4,15 Mar 2017 16:56:44 -0000
+2017-03-15 09:56:46,985 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 404
+2017-03-15 09:56:46,986 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 404
+2017-03-15 09:57:31,296 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xD7CE3532F3FA7CF450A93AAD1633166EA5C829BE9DF14F98BF11878B237CD516533FC0EA1F3E8DF40B4DC812E79BB19721F960C0C891ACB6357C3D48E7490A70,15 Mar 2017 16:57:30 -0000
+2017-03-15 09:57:56,117 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-15 09:58:28,837 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 09:58:31,146 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 201
+2017-03-15 09:58:31,146 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 201
+2017-03-15 09:58:39,817 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 09:58:39,817 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 09:58:40,673 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 09:58:44,425 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 09:58:54,504 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 09:58:54,505 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 09:58:54,505 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 09:59:05,053 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 09:59:07,879 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 09:59:10,722 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 09:59:16,920 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-15 09:59:20,693 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-15 09:59:23,623 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-15 09:59:27,704 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-15 09:59:33,708 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-15 09:59:39,771 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-15 09:59:53,483 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-15 09:59:53,484 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-15 09:59:53,489 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-15 10:00:01,307 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-15 10:00:01,308 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-15 10:00:04,203 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-15 10:00:10,013 DEBUG CreateHomePage(515) Creation of home page 200
+2017-03-15 10:00:14,249 DEBUG CreateHomePage(544) Updating Page Layout to ASUHOMEDefault, Title 400
+2017-03-15 10:00:17,069 DEBUG CreateHomePage(560) Making Home Page a default page at Root Level 204
+2017-03-15 10:00:19,759 DEBUG CreateHomePage(576) Making Home Page default page at Pages Level 204
+2017-03-15 10:00:23,655 DEBUG CreateHomePage(597) Delete Default Page from Pages 200
+2017-03-15 10:00:28,985 DEBUG ChangeTheContentTypeToArticlePage(627) Content type of Page to Article page 204
+2017-03-15 10:00:31,785 DEBUG AllowAccessRequestDisable(659) Access Requests Disable 204
+2017-03-15 10:03:45,216 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xE1CA9EA9DB62979AD7C435B3B3FA2AF83951A3C98E546DB2549CF39D949D8F163AA78D530D63E11D4A81E175097250B2AE752DEC279260752906E7F71E362B53,15 Mar 2017 17:03:44 -0000
+2017-03-15 10:04:11,318 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 10:04:13,318 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 201
+2017-03-15 10:04:13,318 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 201
+2017-03-15 10:04:21,723 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 10:04:21,724 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 10:04:22,442 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 10:04:26,115 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 10:04:30,087 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 10:04:40,184 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 10:04:40,184 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 10:04:40,184 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 10:04:50,239 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 10:04:53,021 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 10:04:55,821 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 10:07:28,285 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xA8C62189D6FE901995615CBBB804C9ABF589E4FD0A799E8892664E57204DD12856847F28082404332248DF8887041DFE31F47493D69A01694E4DD645E03EE9A0,15 Mar 2017 17:07:27 -0000
+2017-03-15 10:07:39,498 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-15 10:08:09,927 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 10:08:11,757 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-15 10:08:11,758 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-15 10:08:20,103 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 10:08:20,103 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 10:08:20,978 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 10:08:24,689 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 10:08:28,524 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 10:08:38,187 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 10:08:38,188 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 10:08:38,188 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 10:08:48,155 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 10:08:50,944 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 10:08:53,778 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 10:09:00,040 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-15 10:09:03,766 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-15 10:09:06,691 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-15 10:09:10,696 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-15 10:09:16,793 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-15 10:09:22,835 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-15 10:09:36,683 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-15 10:09:36,684 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-15 10:09:36,692 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-15 10:09:43,567 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-15 10:09:43,568 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-15 10:09:49,385 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-15 10:09:54,615 DEBUG CreateHomePage(515) Creation of home page 400
+2017-03-15 10:10:00,050 DEBUG ChangeTheContentTypeToArticlePage(627) Content type of Page to Article page 500
+2017-03-15 10:10:02,770 DEBUG AllowAccessRequestDisable(659) Access Requests Disable 204
+2017-03-15 10:11:09,953 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xD362DA18123AF52D216B5532FCDF8FDBB2E2AE488F8D1A021FCA7C0C48DEB9747BC58914CE17C2A5956424C1AF7891C832670BD24D9DE7D70E3EED54EA488CF2,15 Mar 2017 17:11:09 -0000
+2017-03-15 10:11:39,413 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 10:11:41,289 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 201
+2017-03-15 10:11:41,290 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 201
+2017-03-15 10:11:53,707 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 10:11:53,708 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 10:11:54,680 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 10:11:58,651 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 10:12:02,692 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 10:34:26,154 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xEC1E08A9E62480199B6B3BDB559FE8F851150D12E5EF6A0B80EA1DAC46F17E475F3946246BB8160421AB32A8463E5CB578BB1E5440C284651C199C1F6A8C96D0,15 Mar 2017 17:34:25 -0000
+2017-03-15 10:34:51,447 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 10:34:53,250 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-15 10:34:53,250 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-15 10:35:02,426 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 10:35:02,427 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 10:35:03,295 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 10:35:06,975 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 10:35:10,802 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 10:35:20,477 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 10:35:20,477 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 10:35:20,478 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 10:35:30,475 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 10:35:33,294 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 10:35:36,111 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 10:35:42,312 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-15 10:35:46,050 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-15 10:35:48,972 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-15 10:35:52,967 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-15 10:35:59,062 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-15 10:36:05,384 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-15 10:36:20,091 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-15 10:36:20,092 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-15 10:36:20,096 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-15 10:36:26,946 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-15 10:36:26,947 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-15 10:36:32,833 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-15 10:36:38,154 DEBUG CreateHomePage(515) Creation of home page 400
+2017-03-15 10:36:43,787 DEBUG ChangeTheContentTypeToArticlePage(627) Content type of Page to Article page 500
+2017-03-15 10:36:46,529 DEBUG AllowAccessRequestDisable(659) Access Requests Disable 204
+2017-03-15 10:37:46,799 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0xD232E73A729C10CCC54E8DD26673D3FBDB6FFCE5F9734E3BC94A25F8B370504F082271248EFA2026F6B0992209584D1C539F9FED689D58BC011865FF8A51A400,15 Mar 2017 17:37:46 -0000
+2017-03-15 10:38:12,860 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 10:38:14,759 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 201
+2017-03-15 10:38:14,760 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 201
+2017-03-15 10:38:23,273 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 10:38:23,273 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 10:38:24,132 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 10:38:27,759 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 10:38:31,618 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 10:38:41,356 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 10:38:41,357 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 10:38:41,357 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 10:38:51,455 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 10:38:54,269 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 10:38:57,127 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 10:39:03,220 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-15 10:39:07,498 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-15 10:39:10,453 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-15 10:39:14,365 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-15 10:39:20,534 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-15 10:39:26,809 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-15 10:39:40,513 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-15 10:39:40,514 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-15 10:39:40,517 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-15 10:39:47,742 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-15 10:39:47,744 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-15 10:39:53,676 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-15 10:39:59,491 DEBUG CreateHomePage(515) Creation of home page 200
+2017-03-15 10:40:03,486 DEBUG CreateHomePage(544) Updating Page Layout to ASUHOMEDefault, Title 400
+2017-03-15 10:40:06,373 DEBUG CreateHomePage(560) Making Home Page a default page at Root Level 204
+2017-03-15 10:40:09,214 DEBUG CreateHomePage(576) Making Home Page default page at Pages Level 204
+2017-03-15 10:40:13,060 DEBUG CreateHomePage(597) Delete Default Page from Pages 200
+2017-03-15 10:40:18,631 DEBUG ChangeTheContentTypeToArticlePage(627) Content type of Page to Article page 204
+2017-03-15 10:40:21,397 DEBUG AllowAccessRequestDisable(659) Access Requests Disable 204
+2017-03-15 10:49:20,901 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x283F026EBCFCC2C534B0C6D1C31B690925425714876E894EB35D0CC1F295CE53A748FD816A3D8877E1BBC20F77265D62A4B0168C92BCD719778429A5328500CF,15 Mar 2017 17:49:20 -0000
+2017-03-15 10:49:53,414 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 10:49:55,298 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 201
+2017-03-15 10:49:55,298 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 201
+2017-03-15 10:50:03,768 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 10:50:03,769 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 10:50:07,634 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 10:50:11,405 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 10:50:15,289 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 10:50:24,924 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 10:50:24,925 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 10:50:24,925 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 10:50:34,788 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 10:50:37,546 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 10:50:40,323 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 10:50:46,507 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-15 10:50:51,133 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-15 10:50:53,960 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-15 10:50:57,941 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-15 10:51:04,560 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-15 11:01:36,860 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x4A528120304B6426BAF477321AF1F51E8E6358F5B479BBED599A0D691D4E0FAE53E6C0F119A52FA1DABA102593B8102C4F9D034888087B3A1A279FE558FFE2BD,15 Mar 2017 18:01:36 -0000
+2017-03-15 11:02:07,420 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 11:02:09,226 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-15 11:02:09,227 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-15 11:02:18,181 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 11:02:18,182 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 11:02:19,035 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 11:02:22,824 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 11:02:26,832 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 11:04:47,033 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x42C5DEA1AD2CCF102E9C6546FFA7322E125446394E73C04498FC20269845FA12E3E0E7CE233F94A1B1F75628692E3CED4FEE841077F90E96AA19058212C3EF66,15 Mar 2017 18:04:46 -0000
+2017-03-15 11:05:14,282 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-15 11:05:15,995 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 500
+2017-03-15 11:05:15,995 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 500
+2017-03-15 11:05:24,343 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-15 11:05:24,344 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-15 11:05:25,172 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-15 11:05:28,904 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-15 11:05:32,967 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-15 11:05:42,687 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-15 11:05:42,687 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-15 11:05:42,688 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-15 11:05:52,692 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-15 11:05:55,467 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-15 11:05:58,322 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-15 11:06:04,490 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-15 11:06:09,397 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-15 11:06:12,331 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-15 11:06:16,761 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-15 11:06:22,762 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-15 11:06:28,953 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-15 11:06:42,708 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-15 11:06:42,709 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-15 11:06:42,713 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-15 11:06:50,635 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-15 11:06:50,638 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-15 11:06:56,559 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-15 11:07:03,433 DEBUG CreateHomePage(515) Creation of home page 200
+2017-03-15 11:07:07,440 DEBUG CreateHomePage(544) Updating Page Layout to ASUHOMEDefault, Title 400
+2017-03-15 11:07:10,253 DEBUG CreateHomePage(560) Making Home Page a default page at Root Level 204
+2017-03-15 11:07:13,056 DEBUG CreateHomePage(576) Making Home Page default page at Pages Level 204
+2017-03-15 11:07:17,875 DEBUG CreateHomePage(597) Delete Default Page from Pages 200
+2017-03-15 11:07:23,931 DEBUG ChangeTheContentTypeToArticlePage(627) Content type of Page to Article page 204
+2017-03-15 11:07:26,632 DEBUG AllowAccessRequestDisable(659) Access Requests Disable 204
+2017-03-20 12:14:39,093 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x2ECC61B6772E76D82AACDACE358A72162474582DE76864B3138447CC9EC0B8A86B4F188CE745FCB90D94EF2725AF75A09117A5E0837CA87E202C48F8D3A476A8,20 Mar 2017 19:14:40 -0000
+2017-03-20 12:14:53,365 DEBUG CreateSubSite(85) SubSiteCreation Status Code  500
+2017-03-20 12:15:26,559 DEBUG CreateSubSite(85) SubSiteCreation Status Code  200
+2017-03-20 12:15:28,492 DEBUG CreateGroup(109) Creation of Groups Power Users Status Code 201
+2017-03-20 12:15:28,492 DEBUG CreateGroup(110) Creation of Groups Report Viewers Status Code 201
+2017-03-20 12:15:37,528 DEBUG AssignPermissionsToTheGroup(165) Assign permissions to power users status code 200
+2017-03-20 12:15:37,529 DEBUG AssignPermissionsToTheGroup(166) Assign permissions to report viewers status code 200
+2017-03-20 12:15:38,360 DEBUG ManageFeatures(212) Report File Sync Feature Status Code 200
+2017-03-20 12:15:42,033 DEBUG DeleteDashboards(228) Delete Dashboards Library Status Code 200
+2017-03-20 12:15:45,878 DEBUG DeleteItemInDocumentsLibrary(244) Delete Excel Services Sample file from Documents Library 200
+2017-03-20 12:15:55,437 DEBUG ModifyingTheViewOfDataConnection(278) Remove Title from DataConnection 200
+2017-03-20 12:15:55,437 DEBUG ModifyingTheViewOfDataConnection(279) Remove Document Modified BY From Data Connection 200
+2017-03-20 12:15:55,437 DEBUG ModifyingTheViewOfDataConnection(280) Remove keywords BY From Data Connection 200
+2017-03-20 12:16:05,285 DEBUG ModifyContentTypeOfTheList(302) Content Type Of Data COnnections 200
+2017-03-20 12:16:08,055 DEBUG updateListVersion(322) List Version settings of Data COnnections 204
+2017-03-20 12:16:10,810 DEBUG updateListVersion(328) List Version settings of Performance Content 204
+2017-03-20 12:16:16,932 DEBUG CreateDashBoardsLibrary(406) Create Content Repository 201
+2017-03-20 12:16:21,123 DEBUG AddNavigationQuickLaunchAttribute(380) Navigation Inheritance of pages 201
+2017-03-20 12:16:24,003 DEBUG AddNavigationQuickLaunchAttribute(385) Navigation Inheritance of Content Repository 201
+2017-03-20 12:16:27,856 DEBUG ModifyDashBoardsLibraryContentType(418) Content Repository Content Type to Report Builder Report 200
+2017-03-20 12:16:33,897 DEBUG ModifyDashBoardsLibraryContentType(428) Content Repository Content Type to BI Semantic Model Connection 200
+2017-03-20 12:16:40,091 DEBUG ModifyDashBoardsLibraryContentType(437) Content Repository Content Type to PowerPivot Gallery Document 200
+2017-03-20 12:16:54,973 DEBUG ModifyDashBoardsLibraryView(463) Remove Title from COntent Repository 200
+2017-03-20 12:16:54,973 DEBUG ModifyDashBoardsLibraryView(464) Remove contact from DataConnection 200
+2017-03-20 12:16:54,976 DEBUG ModifyDashBoardsLibraryView(465) Remove pagelayout from DataConnection 200
+2017-03-20 12:17:01,658 DEBUG DeleteItemsFromPageList(493) Delete excelservicessample from page 200
+2017-03-20 12:17:01,659 DEBUG DeleteItemsFromPageList(495) Delete ppsample from Page 200
+2017-03-20 12:17:07,416 DEBUG ChangeDraftVersionVisibilityOfPages(352) Change Draft Version visibility of Pages 204
+2017-03-20 12:17:13,202 DEBUG CreateHomePage(515) Creation of home page 200
+2017-03-20 12:17:16,958 DEBUG CreateHomePage(546) Updating Page Layout to ASUHOMEDefault, Title 204
+2017-03-20 12:17:19,717 DEBUG CreateHomePage(562) Making Home Page a default page at Root Level 204
+2017-03-20 12:17:22,483 DEBUG CreateHomePage(578) Making Home Page default page at Pages Level 204
+2017-03-20 12:17:26,407 DEBUG CreateHomePage(599) Delete Default Page from Pages 200
+2017-03-20 12:17:31,413 DEBUG ChangeTheContentTypeToArticlePage(629) Content type of Page to Article page 204
+2017-03-20 12:17:34,196 DEBUG AllowAccessRequestDisable(661) Access Requests Disable 204
+2017-03-29 12:18:28,744 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x29A2BFCECD8F41F037A4A751038B14306795342BB3207956CF605DD575D656D6E6BDFC3BFBF087BA6401585FA03AC4B2FCD8B03E163D18F45EAEEC31B10BDB19,29 Mar 2017 19:18:28 -0000
+2017-03-29 12:25:52,365 DEBUG GetNTLMAuthToken(63) Authorization Status Code 0x656B5DD806FA6A2475B56F33359A1012A963467539D369EDB5AEFF54B044B6901083878CED884E35DA9F89A184D9378FD5E5A7EE04639767614259B5134B470A,29 Mar 2017 19:25:52 -0000

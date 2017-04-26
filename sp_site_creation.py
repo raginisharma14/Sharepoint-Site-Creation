@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import requests
+import getpass
 import logging
 from urllib.parse import urlparse
 import json
@@ -14,7 +15,8 @@ config = configparser.ConfigParser()
 myvars = {}
 results = []
 empty = ""
-password = input("Enter Password To Run The Site Creation Script--------->")
+#password = input("Enter Password To Run The Site Creation Script--------->")
+password = getpass.getpass('Enter Password To Run The Site Creation Script--------->')
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(funcName)s(%(lineno)d) %(message)s')
 logger = logging.getLogger('root')
 handler = RotatingFileHandler('Log.txt', mode='a', maxBytes=5*1024*1024, 
@@ -39,7 +41,7 @@ username = myvars['Username'].strip(' \t\n\r')
 site_name = myvars['Site Name'].strip(' \t\n\r')
 site_collection_name = myvars['Site Collection Name'].strip(' \t\n\r')
 
-
+print(username)
    
 
     
@@ -49,7 +51,7 @@ def GetNTLMAuthToken(base_url):
         token_url = base_url + '/_api/contextinfo'
     
         tr = requests.post(token_url, auth=HttpNtlmAuth(username,
-                       password), verify=False, timeout=2)
+                       password), verify=False, timeout=1000)
     
         tokenRoot = etree.fromstring(tr.content)
     
@@ -61,13 +63,14 @@ def GetNTLMAuthToken(base_url):
                'Accept': 'application/json; odata=verbose',
                'Content-Type': 'application/json; odata=verbose'}
         logger.debug('Authorization Status Code %s',  token)
-    except :
+    except Exception as e:
+        print(e)
         print("Invalid password or authentication. check your password!!!")
         sys.exit(1)
         
 def CreateSubSite(base_url):
     post_url = base_url + '_api/web/webinfos/add'
-    print(post_url)
+    #print(post_url)
     payload = {'parameters': {
         '__metadata': {'type': 'SP.WebInfoCreationInformation'},
         'Url': myvars['Site URL'].strip(' \t\n\r'),
@@ -105,6 +108,7 @@ def CreateGroup(root_url):
                        data=json.dumps(payload_report_viewers),
                        auth=HttpNtlmAuth(username,
                        password), headers=headers, verify=True, timeout=180)
+    #print(r1.text)
     logger.debug("Creation of Groups Power Users Status Code %s", str(r1.status_code))
     logger.debug("Creation of Groups Report Viewers Status Code %s" ,  str(r2.status_code))
 #Step 4
@@ -125,6 +129,7 @@ def AssignPermissionsToTheGroup(root_url):
                       auth=HttpNtlmAuth(username,
                       password), headers=headers, verify=False, timeout=30)
     value = json.loads(r.text)
+    #print(value)
     global power_Id
     power_Id = value['d']['Id']
     post_url_report_viewers = root_url + 'SiteGroups/getByName(\''+title_report_viewers+'\')'
@@ -133,6 +138,7 @@ def AssignPermissionsToTheGroup(root_url):
                       auth=HttpNtlmAuth(username,
                       password), headers=headers, verify=False, timeout=30)
     value = json.loads(r1.text)
+    #print(value)
     global report_Id
     report_Id = value['d']['Id']
     List = list()
@@ -141,7 +147,7 @@ def AssignPermissionsToTheGroup(root_url):
                       auth=HttpNtlmAuth(username,
                       password), headers=headers, verify=False, timeout=30)
         value = json.loads(r.text)
-       
+        print(value)
         List.append(value['d']['Id'])
         
         
@@ -345,7 +351,7 @@ def ChangeDraftVersionVisibilityOfPages(root_url):
     r = requests.post(post_url_update, data=json.dumps(payload),
                       auth=HttpNtlmAuth(username,
                       password), headers=headers_merge, verify=False, timeout=30)
-    time.sleep(2)
+    time.sleep(5)
     logger.debug("Change Draft Version visibility of Pages %s" ,str(r.status_code))
 
 def AddNavigationQuickLaunchAttribute(base_url, root_url):
@@ -526,9 +532,11 @@ def CreateHomePage(base_url,root_url):
     #payload =[{ '__metadata': { 'type': 'SP.Data.PagesItem' }, 'Title': config['Credentials']['Site Name'],'SeoMetaDescription':'Some description ragini to fill'},
                 #{'__metadata': {'type' : 'SP.FieldUrlValue'},'Url' : 'https://analytics-dev.asu.edu/_catalogs/masterpage/ASUHomeDefault1.aspx'}]
 
+    
     payload ={ '__metadata': { 'type': 'SP.Data.PagesItem' }, 'Title': myvars['Site Name'].strip(' \t\n\r'),'SeoMetaDescription':'Some description ragini to fill',
-               'PublishingPageLayout':{'type' : 'Url','Value': 'https://analytics-dev.asu.edu/_catalogs/masterpage/ASUHomeDefault.aspx'}}
-               #'PublishingPageLayout':{ '__metadata': {'type' : 'SP.FieldUrlValue'},'Description' : 'ASUHomeDefault', 'Url': 'https://analytics-dev.asu.edu/_catalogs/masterpage/ASUHomeDefault.aspx'}}
+               
+               #'PublishingPageLayout':{'type' : 'Url','Value': 'https://analytics-dev.asu.edu/'+ site_collection_name + '/_catalogs/masterpage/ASUHomeDefault.aspx'}}
+               'PublishingPageLayout':{ '__metadata': {'type' : 'SP.FieldUrlValue'},'Description' : 'ASUHomeDefault', 'Url': 'https://analytics-dev.asu.edu/_catalogs/masterpage/ASUHomeDefault.aspx'}}
     headers_merge = {'X-RequestDigest': token,         
                'Accept': 'application/json; odata=verbose',
                'Content-Type': 'application/json; odata=verbose',
@@ -667,6 +675,7 @@ def StartScript(base_url, root_url):
             continue
         else:
             break
+    
     CreateGroup(root_url)
     #GetUsersOfAGroup()
     AssignPermissionsToTheGroup(root_url)    
@@ -689,8 +698,10 @@ def StartScript(base_url, root_url):
     ModifyDashBoardsLibraryView(root_url)
     DeleteItemsFromPageList(base_url, root_url)    
     ChangeDraftVersionVisibilityOfPages(root_url)
-    
-    CreateHomePage(base_url, root_url)
+    try:
+        CreateHomePage(base_url, root_url)
+    except:
+        pass
     
     ChangeTheContentTypeToArticlePage(base_url, root_url)   
     AllowAccessRequestDisable(root_url)
